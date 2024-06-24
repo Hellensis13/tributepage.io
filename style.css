@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 .navbar 
 {
 
@@ -34,7 +36,7 @@
 h1 {
     text-align: center;
     padding-top: 30px;
-    font-family: "Bookman";
+    font-family: "Montserrat", sans-serif;
     color: #54535a;
   }
   
@@ -43,7 +45,7 @@ h1 {
   }
 
   #imgmain {
-    width: 700px;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -56,7 +58,7 @@ h1 {
 
   h2 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   article {
@@ -72,6 +74,7 @@ h1 {
   a {
     text-decoration: none;
     color: #f76e75;
+    font-weight: bold;
   }
 
   ul {
@@ -81,9 +84,9 @@ h1 {
   }
 
   table {
-    width: 500px;
+    width: 50%;
     margin: auto;
-    border-spacing: 20px;
+    border-spacing: 2rcap;
 }
 
 td {
@@ -109,6 +112,10 @@ td {
 footer{
     padding: 20px;
     text-align: center;
+}
+
+body {
+  background-color: #efedfa;
 }
 
 
