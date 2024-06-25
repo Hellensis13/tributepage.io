@@ -83,6 +83,7 @@ h1 {
     line-height: 1.5;
   }
 
+  
   table {
     width: 50%;
     margin: auto;
@@ -109,6 +110,18 @@ td {
 .scale:hover {
     transform: scale(1.2);
 }
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.image {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer{
     padding: 20px;
     text-align: center;
